@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Barlow', sans-serif; */
+
+    
+}
+
+
+.header{
+    height: 100vh;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    /*font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;*/
+    padding: 20px;
+
+    
+}
+.logo{
+   
+   width: 120px;
+   height: 25px;
+}
+.nav{
+    font-family: 'Fraunces', serif;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+        
+}
+li{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+
+.contact{
+    text-decoration: none;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-style: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+
+}
+.contact,a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Fraunces', serif;
+}
+
+.heading{
+     font-family: 'Fraunces', serif;
+     color: white;
+     word-spacing: 8px;
+     letter-spacing: 10px;
+     position: absolute;
+     font-size: 40px;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%);
+     -webkit-transform: translate(-50%);
+     -moz-transform: translate(-50%);
+     -ms-transform: translate(-50%);
+     -o-transform: translate(-50%);
+}
+
+
+.item1{
+    display: flex;
+    
+    
+}
+.item1--text{
+    width: 50vw;
+    font-family: 'Fraunces', serif;
+    padding: 100px;
+    
+    
+    
+    
+}
+
+.item1--text__h2{
+     font-family: 'Fraunces', serif;
+     font-size: 48px;
+     padding: 20px;
+}
+.item1--text__p{
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        color: gray;
+        padding: 20px;
+}
+.item1--text__h3 a{
+    font-family: 'Fraunces', serif;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+    /*text-decoration-color: rgba(red, rgb(230, 195, 3), blue, alpha);
+    -moz-text-decoration-color: yellow;
+    */
+}
+
+.item1--image img{
+    width: 50vw;
+}
+
+.arrow
+{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%);
+ -webkit-transform: translate(-50%);
+ -moz-transform: translate(-50%);
+ -ms-transform: translate(-50%);
+ -o-transform: translate(-50%);
+}
+
+
+/* ----------------------------------------------------------item2 */
+.item2--image img{
+    width: 50vw;
+}
+
+.item2--text{
+    width: 50vw;
+    font-family: 'Fraunces', serif;
+    padding: 100px;
+    
+    
+    
+    
+}
+.item1--text__h3--red a{
+    font-family: 'Fraunces', serif;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    text-decoration-thickness: 5px;
+    /*text-decoration-color: rgba(red, rgb(230, 195, 3), blue, alpha);
+    -moz-text-decoration-color: crimson;
+    */
+}
+
+
+/* -------------------------------------------------container 3 */
+.container3{
+    display: flex;
+    height: 100vh;
+    
+    
+}
+
+
+.item5{
+    
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    width: 50vw;
+    background-repeat: no-repeat;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.item5--h1{
+    font-family: 'Fraunces', serif;
+    padding: 30px;
+    color: rgb(102, 102, 117);
+
+
+}
+.item5--p{
+    font-family: 'Barlow', sans-serif;
+    padding: 10px;
+    color: rgb(102, 102, 117);
+
+}
+
+
+.item6{
+    
+    background-image: url("../images/desktop/image-photography.jpg");
+    width: 50vw;
+    background-repeat: no-repeat;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.item5--h1{
+    font-family: 'Fraunces', serif;
+    padding: 30px;
+    color: rgb(102, 102, 117);
+
+
+}
+.item5--p{
+    font-family: 'Barlow', sans-serif;
+    padding: 10px;
+    color: rgb(102, 102, 117);
+
+}
+
+
+/* ---------------------------CLIENT TESTIMONIALS */
+
+.testimonials{
+    background-color: rgb(241, 247, 231);
+}
+
+.testimonials__heading{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    color: rgba(102, 102, 117, 0.534);
+    
+    
+}
+
+
+.allusers{
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+      
+
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.users{
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+/* .user1{
+    background-color: grey;
+    
+}
+.user2{
+    background-color: grey;
+
+}
+.user3{
+    background-color: grey;
+
+} */
+.userpic{
+    clip-path: circle(50% at 50% 50%);
+    height: 70px;
+    width: 70px;
+}
+.discription{
+    font-family: 'Barlow', sans-serif;
+padding: 30px;
+color: rgba(102, 102, 117, 0.534)
+
+
+}
+.name{
+    font-family: 'Fraunces', serif;
+    
+}
+.position{
+font-family: 'Barlow', sans-serif;
+padding: 30px;
+color: rgba(102, 102, 117, 0.534)
+
+}
+
+
+
+/* ------------------------------------products secion */
+.products{
+    display: flex;
+    justify-content: center;
+}
+.products__img img{
+    width: 322px;
+    height: 400px;
+}
+
+
+
+/* ----------------------footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(191, 216, 184);
+    height: 300px;
+
+}
+.footer__ul li a{
+    color: rgb(112, 175, 95);
+    font-size: 18px;
+    padding: 17px;
+}
+
+.footer__ul li a:hover{
+    color: white;
+    
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    
+    
+}
+.socialmedialogo{
+    padding: 15px;
+}
+.footer__h2{
+    font-size: 22px;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(79, 128, 66);
+    font-weight: 700;
+}
+
+
